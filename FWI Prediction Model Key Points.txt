@@ -1,0 +1,48 @@
+render template lib is imported it is useful in generating url of html page
+
+requirement.txt is for installing various libraries
+
+command for installing libraries is 
+pip install -r requirements.txt
+
+to run the project
+command is python application.py
+
+STEPS TO DEPLOY IN GITHUB
+
+ls -a
+
+git remote rm origin
+
+git remote -v
+
+git init
+
+git add .
+
+git status
+
+git config --global user.email "chintunikith000@gmail.com"
+
+git config --global user.name "NikithPinni"
+
+git commit -m "firstcommit"
+
+git branch -M main
+
+git remote add origin https://github.com/NikithPinni/Forest-Weather-Index-Prediction-Model.git
+
+git push -u origin main
+
+------------------------------------------------------
+
+To add a new file again
+
+git add .
+
+git status
+
+git commit -m "Beanstalk configuration"
+
+git push -u origin main
+
